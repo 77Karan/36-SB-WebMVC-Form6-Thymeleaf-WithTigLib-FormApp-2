@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>User Details</h3>
+FirstName
+<p th:text="${user.fname}"></p>
+
+<br />LastName
+<p th:text="${user.lname}"></p>
+
+<br />Email
+<p th:text="${user.email}"></p>
+
+<br />Phone Number
+<p th:text="${user.phNo}"></p>
+
+<p th:text="${msg}"></p>
+
+<h1><a href="userform">Go Back</a></h1>
+
+
+</body>
+</html>
